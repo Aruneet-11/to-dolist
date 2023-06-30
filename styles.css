@@ -98,7 +98,7 @@ ul li span {
 ul li span:hover {
   background: #edeef0;
 }
-@media (max-width: 400px) {
+@media (max-width: 400px) and (min-width: 300px) {
   .todo-app {
     width: 600px;
   }
@@ -110,6 +110,12 @@ ul li span:hover {
     width: 200px;
     padding: 5px;
   }
+  .container {
+    width: 1000px;
+    height: 2500px;
+    background: linear-gradient(135deg, #153677, #4e085f);
+    background-size: cover;
+  }
 }
 @media (max-width: 300px) {
   .todo-app {
@@ -117,13 +123,12 @@ ul li span:hover {
   }
   .btn {
     width: 200px;
-
     padding: 10px;
     border-radius: 15px;
   }
   input {
     width: 100px;
     padding: 2px;
-    /* margin-left: 10px; */
+    margin-left: 10px;
   }
 }
