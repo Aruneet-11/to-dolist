@@ -4,7 +4,7 @@ const listcontainer=document.getElementById("list-container");
 
 function addTask()
 {
-    if(input.value===' ')
+    if(input.value===' '|| input.value==='')
     {
         alert("You must enter a task!");
     
